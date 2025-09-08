@@ -1,0 +1,217 @@
+{
+	"info": {
+		"_postman_id": "4c5c040d-57b5-488a-be35-eb50cfa16c2d",
+		"name": "Project 5 : Data Driven Testing",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "47742343",
+		"_collection_link": "https://sinha-avinash906-5579920.postman.co/workspace/Avinash-Sinha's-Workspace~9c79a176-6ab6-4e0f-8c76-0784192ac561/collection/47742343-4c5c040d-57b5-488a-be35-eb50cfa16c2d?action=share&source=collection_link&creator=47742343"
+	},
+	"item": [
+		{
+			"name": "Login to User",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"TC#1 Status code is 201\", function () {\r",
+							"    pm.response.to.have.status(201);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"TC#2 Verify that Id should not be null\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData.id).to.not.eql(null);\r",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "reqres-free-v1",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"{{email}}\",\r\n    \"password\": \"{{password}}\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://reqres.in/api/register/preprod",
+					"protocol": "https",
+					"host": [
+						"reqres",
+						"in"
+					],
+					"path": [
+						"api",
+						"register",
+						"preprod"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Login to User",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-api-key",
+								"value": "reqres-free-v1",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"{{email}}\",\r\n    \"password\": \"{{password}}\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://reqres.in/api/register/preprod",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"register",
+								"preprod"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Mon, 08 Sep 2025 10:58:41 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "97"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "97bdee9f3d3254e8-DEL"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Origin, X-Requested-With, Content-Type, Accept, Authorization, x-api-key"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, PUT, DELETE, OPTIONS"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "http://localhost:5173"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"61-Uaf3wkUM8UHNSp8bJqa7ba3bvug\""
+						},
+						{
+							"key": "Nel",
+							"value": "{\"report_to\":\"heroku-nel\",\"response_headers\":[\"Via\"],\"max_age\":3600,\"success_fraction\":0.01,\"failure_fraction\":0.1}"
+						},
+						{
+							"key": "Ratelimit-Limit",
+							"value": "100"
+						},
+						{
+							"key": "Ratelimit-Policy",
+							"value": "100;w=60"
+						},
+						{
+							"key": "Ratelimit-Remaining",
+							"value": "97"
+						},
+						{
+							"key": "Ratelimit-Reset",
+							"value": "12"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "strict-origin-when-cross-origin"
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"group\":\"heroku-nel\",\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?s=G0R1LziXb28WYhvtl%2BxUaNgQSODAIgLntE3bISh%2FX%2BY%3D\\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\\u0026ts=1757329121\"}],\"max_age\":3600}"
+						},
+						{
+							"key": "Reporting-Endpoints",
+							"value": "heroku-nel=\"https://nel.heroku.com/reports?s=G0R1LziXb28WYhvtl%2BxUaNgQSODAIgLntE3bISh%2FX%2BY%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1757329121\""
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 heroku-router"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "X-Request-Id",
+							"value": "5638fc34-b1be-395d-8488-20c87f89084a"
+						},
+						{
+							"key": "X-Xss-Protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "cf-cache-status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "server-timing",
+							"value": "cfL4;desc=\"?proto=TCP&rtt=5919&min_rtt=5276&rtt_var=2089&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2801&recv_bytes=718&delivery_rate=569275&cwnd=252&unsent_bytes=0&cid=6e72114d8a447fa9&ts=600&x=0\""
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"email\": \"{{email}}\",\n    \"password\": \"{{password}}\",\n    \"id\": \"480\",\n    \"createdAt\": \"2025-09-08T10:58:41.600Z\"\n}"
+				}
+			]
+		}
+	]
+}
