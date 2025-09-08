@@ -1,0 +1,174 @@
+{
+	"id": "9b81f122-f1fc-4891-b067-bafd89ad0438",
+	"name": "Project 5 : Data Driven Testing",
+	"timestamp": "2025-09-08T11:35:45.992Z",
+	"collection_id": "47742343-4c5c040d-57b5-488a-be35-eb50cfa16c2d",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 48,
+	"delay": "100",
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-09-08T11:35:35.545Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "15fc22e6-90cc-4954-ad47-cb38bda3b218",
+			"name": "Login to User",
+			"url": "https://reqres.in/api/register/preprod",
+			"time": 216,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"TC#1 Status code is 201": true,
+				"TC#2 Verify that Id should not be null": true
+			},
+			"testPassFailCounts": {
+				"TC#1 Status code is 201": {
+					"pass": 24,
+					"fail": 0
+				},
+				"TC#2 Verify that Id should not be null": {
+					"pass": 24,
+					"fail": 0
+				}
+			},
+			"times": [
+				509,
+				206,
+				202,
+				201,
+				195,
+				207,
+				209,
+				225,
+				196,
+				207,
+				206,
+				204,
+				207,
+				217,
+				206,
+				198,
+				202,
+				201,
+				205,
+				209,
+				204,
+				215,
+				206,
+				216
+			],
+			"allTests": [
+				{
+					"TC#1 Status code is 201": true,
+					"TC#2 Verify that Id should not be null": true
+				},
+				{
+					"TC#1 Status code is 201": true,
+					"TC#2 Verify that Id should not be null": true
+				},
+				{
+					"TC#1 Status code is 201": true,
+					"TC#2 Verify that Id should not be null": true
+				},
+				{
+					"TC#1 Status code is 201": true,
+					"TC#2 Verify that Id should not be null": true
+				},
+				{
+					"TC#1 Status code is 201": true,
+					"TC#2 Verify that Id should not be null": true
+				},
+				{
+					"TC#1 Status code is 201": true,
+					"TC#2 Verify that Id should not be null": true
+				},
+				{
+					"TC#1 Status code is 201": true,
+					"TC#2 Verify that Id should not be null": true
+				},
+				{
+					"TC#1 Status code is 201": true,
+					"TC#2 Verify that Id should not be null": true
+				},
+				{
+					"TC#1 Status code is 201": true,
+					"TC#2 Verify that Id should not be null": true
+				},
+				{
+					"TC#1 Status code is 201": true,
+					"TC#2 Verify that Id should not be null": true
+				},
+				{
+					"TC#1 Status code is 201": true,
+					"TC#2 Verify that Id should not be null": true
+				},
+				{
+					"TC#1 Status code is 201": true,
+					"TC#2 Verify that Id should not be null": true
+				},
+				{
+					"TC#1 Status code is 201": true,
+					"TC#2 Verify that Id should not be null": true
+				},
+				{
+					"TC#1 Status code is 201": true,
+					"TC#2 Verify that Id should not be null": true
+				},
+				{
+					"TC#1 Status code is 201": true,
+					"TC#2 Verify that Id should not be null": true
+				},
+				{
+					"TC#1 Status code is 201": true,
+					"TC#2 Verify that Id should not be null": true
+				},
+				{
+					"TC#1 Status code is 201": true,
+					"TC#2 Verify that Id should not be null": true
+				},
+				{
+					"TC#1 Status code is 201": true,
+					"TC#2 Verify that Id should not be null": true
+				},
+				{
+					"TC#1 Status code is 201": true,
+					"TC#2 Verify that Id should not be null": true
+				},
+				{
+					"TC#1 Status code is 201": true,
+					"TC#2 Verify that Id should not be null": true
+				},
+				{
+					"TC#1 Status code is 201": true,
+					"TC#2 Verify that Id should not be null": true
+				},
+				{
+					"TC#1 Status code is 201": true,
+					"TC#2 Verify that Id should not be null": true
+				},
+				{
+					"TC#1 Status code is 201": true,
+					"TC#2 Verify that Id should not be null": true
+				},
+				{
+					"TC#1 Status code is 201": true,
+					"TC#2 Verify that Id should not be null": true
+				}
+			]
+		}
+	],
+	"count": 24,
+	"totalTime": 5253,
+	"collection": {
+		"requests": [
+			{
+				"id": "15fc22e6-90cc-4954-ad47-cb38bda3b218",
+				"method": "POST"
+			}
+		]
+	}
+}
