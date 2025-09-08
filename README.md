@@ -1,6 +1,6 @@
 # API Testing Practice Projects
 
-This repository contains different API testing projects that I have practised using **Postman**.  
+This repository contains different API testing projects practiced using **Postman**.
 
 ## 📘 Projects Covered
 
