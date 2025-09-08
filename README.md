@@ -4,7 +4,7 @@ This repository contains different API testing projects that I have practised us
 
 ## 📘 Projects Covered
 
-| #  | Project Name                                | Description |
+| No.| Project Name                                | Description |
 |----|---------------------------------------------|-------------|
 | 01 | JSON Server (Dummy APIs)                    | Practiced testing dummy APIs using JSON Server |
 | 02 | SOAP API Testing                            | Worked with SOAP API requests and responses |
