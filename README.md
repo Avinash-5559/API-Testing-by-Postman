@@ -11,3 +11,4 @@ This repository contains different API testing projects practiced using **Postma
 | 03 | Restful Booker                              | Tested RESTful APIs with different HTTP methods (GET, POST, PUT, DELETE) |
 | 04 | E2E Scenario Testing                        | End-to-End API testing for a real-world flow |
 | 05 | Data Driven Testing (CSV + Postman)         | Used CSV files to perform data-driven testing in Postman |
+| 06 | Reqres                                      | Tested Reqres APIs with different HTTP methods (GET, POST, PUT, DELETE) |
