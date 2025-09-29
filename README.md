@@ -28,6 +28,7 @@ It covers different testing approaches, including **REST APIs, SOAP APIs, Data-D
 | 05  | **Data Driven Testing**       | Used CSV files to perform data-driven testing in Postman                    |
 | 06  | **Reqres**                    | Tested Reqres APIs with different HTTP methods (GET, POST, PUT, DELETE)     |
 | 07  | **JSONPlaceholder**           | Tested JSONPlaceholder APIs with different HTTP methods (GET, POST, PUT, DELETE) |
+| 08  | **FakeRestAPI_Authors**       | Tested FakeRestAPI_Authors APIs with different HTTP methods (GET, POST, PUT, DELETE) |
 
 ---
 
