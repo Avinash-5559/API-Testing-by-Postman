@@ -2,9 +2,9 @@
 	"info": {
 		"_postman_id": "058c2a9a-77ec-4058-a7c8-fcd5773ae29d",
 		"name": "Project 1 : JSON Server (Dummy APIs)",
+		"description": "Steps to create the JSON Server (Dummy APIs) on the Localhost Server :\n\n**Step 1**: Download Node.js \\[**URL**: [https://www.npmjs.com/package/json-server](https://www.npmjs.com/package/json-server)\\]\n\n**Step 2**: Check the version of Node.js on the CMD \\[node --version\\]\n\n**Step 3**: Go to JSON Server website \\[**URL**: [https://www.npmjs.com/package/json-server](https://www.npmjs.com/package/json-server)\\]\n\n**Step 4**: Copy the command \"npm i json-server\" and paste it into the CMD, and press enter\n\n**Step 5:** Create a directory (i.e. Folder) on any path on the system\n\n**Step 6**: Create a text file and copy the JSON body from the JSON Server website and paste it into the text file\n\n**Step 7**: Save the file under the folder and name to save as \"db.json\"\n\n**Step 8**: Copy the command \"npx json-server db.json\" and paste it into the CMD, and press enter\n\n**Step 9**: Localhost APIs are created with their Endpoints\n\n**Step 10**: Now run the APIs on Postman",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "47742343",
-		"_collection_link": "https://sinha-avinash906-5579920.postman.co/workspace/Avinash-Sinha's-Workspace~9c79a176-6ab6-4e0f-8c76-0784192ac561/collection/47742343-058c2a9a-77ec-4058-a7c8-fcd5773ae29d?action=share&source=collection_link&creator=47742343"
+		"_exporter_id": "47742343"
 	},
 	"item": [
 		{
@@ -44,7 +44,7 @@
 					},
 					"status": "OK",
 					"code": 200,
-					"_postman_previewlanguage": "",
+					"_postman_previewlanguage": null,
 					"header": [
 						{
 							"key": "X-Powered-By",
@@ -143,7 +143,7 @@
 					},
 					"status": "Created",
 					"code": 201,
-					"_postman_previewlanguage": "",
+					"_postman_previewlanguage": null,
 					"header": [
 						{
 							"key": "X-Powered-By",
@@ -244,7 +244,7 @@
 					},
 					"status": "OK",
 					"code": 200,
-					"_postman_previewlanguage": "",
+					"_postman_previewlanguage": null,
 					"header": [
 						{
 							"key": "X-Powered-By",
@@ -345,7 +345,7 @@
 					},
 					"status": "OK",
 					"code": 200,
-					"_postman_previewlanguage": "",
+					"_postman_previewlanguage": null,
 					"header": [
 						{
 							"key": "X-Powered-By",
@@ -428,7 +428,7 @@
 					},
 					"status": "OK",
 					"code": 200,
-					"_postman_previewlanguage": "",
+					"_postman_previewlanguage": null,
 					"header": [
 						{
 							"key": "X-Powered-By",
@@ -509,7 +509,7 @@
 					},
 					"status": "OK",
 					"code": 200,
-					"_postman_previewlanguage": "",
+					"_postman_previewlanguage": null,
 					"header": [
 						{
 							"key": "X-Powered-By",
@@ -545,7 +545,7 @@
 						}
 					],
 					"cookie": [],
-					"body": ""
+					"body": null
 				}
 			]
 		},
@@ -586,7 +586,7 @@
 					},
 					"status": "No Content",
 					"code": 204,
-					"_postman_previewlanguage": "",
+					"_postman_previewlanguage": null,
 					"header": [
 						{
 							"key": "X-Powered-By",
@@ -622,7 +622,7 @@
 						}
 					],
 					"cookie": [],
-					"body": ""
+					"body": null
 				}
 			]
 		}
