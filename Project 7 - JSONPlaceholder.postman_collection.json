@@ -2,6 +2,7 @@
 	"info": {
 		"_postman_id": "9a5aa0f9-ddfb-4819-8bad-f755add3626f",
 		"name": "Project 7 : JSONPlaceholder",
+		"description": "JSONPlaceholder is a free online REST API that you can use whenever you need some fake data.\n\n**URL**: [https://jsonplaceholder.typicode.com/guide/](https://jsonplaceholder.typicode.com/guide/)",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "47742343"
 	},
