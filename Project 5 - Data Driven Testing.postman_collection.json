@@ -2,9 +2,9 @@
 	"info": {
 		"_postman_id": "4c5c040d-57b5-488a-be35-eb50cfa16c2d",
 		"name": "Project 5 : Data Driven Testing",
+		"description": "**URL**: [https://reqres.in/](https://reqres.in/)",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "47742343",
-		"_collection_link": "https://sinha-avinash906-5579920.postman.co/workspace/Avinash-Sinha's-Workspace~9c79a176-6ab6-4e0f-8c76-0784192ac561/collection/47742343-4c5c040d-57b5-488a-be35-eb50cfa16c2d?action=share&source=collection_link&creator=47742343"
+		"_exporter_id": "47742343"
 	},
 	"item": [
 		{
@@ -97,7 +97,7 @@
 					},
 					"status": "Created",
 					"code": 201,
-					"_postman_previewlanguage": "",
+					"_postman_previewlanguage": null,
 					"header": [
 						{
 							"key": "Date",
