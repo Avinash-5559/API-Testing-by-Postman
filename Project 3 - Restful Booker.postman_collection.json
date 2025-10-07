@@ -2,10 +2,9 @@
 	"info": {
 		"_postman_id": "245c6dba-beac-46e4-960b-e44b231564c6",
 		"name": "Project 3 : Restful Booker",
-		"description": "StartFragmentWelcome to Restful-booker, an API that you can use to learn more about API Testing or try out API testing tools against. Restful-booker is a Create, Read, Update, Delete Web API that comes with authentication features and is loaded with a bunch of bugs for you to explore. The API comes pre-loaded with 10 records for you to work with and resets itself every 10 minutes back to that default state. Restful-Booker also comes with detailed API documentation to help you get started with your API testing straight away.EndFragment",
+		"description": "StartFragmentWelcome to Restful-booker, an API that you can use to learn more about API Testing or try out API testing tools against. Restful-booker is a Create, Read, Update, Delete Web API that comes with authentication features and is loaded with a bunch of bugs for you to explore. The API comes pre-loaded with 10 records for you to work with and resets itself every 10 minutes back to that default state. Restful-Booker also comes with detailed API documentation to help you get started with your API testing straight away.EndFragment\n\n**URL**: [https://restful-booker.herokuapp.com/apidoc/index.html](https://restful-booker.herokuapp.com/apidoc/index.html)",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "47742343",
-		"_collection_link": "https://sinha-avinash906-5579920.postman.co/workspace/Avinash-Sinha's-Workspace~9c79a176-6ab6-4e0f-8c76-0784192ac561/collection/47742343-245c6dba-beac-46e4-960b-e44b231564c6?action=share&source=collection_link&creator=47742343"
+		"_exporter_id": "47742343"
 	},
 	"item": [
 		{
@@ -1012,7 +1011,7 @@
 					},
 					"status": "OK",
 					"code": 200,
-					"_postman_previewlanguage": "",
+					"_postman_previewlanguage": null,
 					"header": [
 						{
 							"key": "Content-Length",
