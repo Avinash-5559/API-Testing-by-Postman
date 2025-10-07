@@ -2,6 +2,7 @@
 	"info": {
 		"_postman_id": "749658c6-6e88-44ef-92cb-3fdbec36e13e",
 		"name": "Project 6 : Reqres",
+		"description": "ReqRes provides a complete API development platform with three powerful capabilities: persistent backend APIs for data storage, custom endpoints for testing and prototyping, and a free fake data API for instant development resources.\n\n**URL**: [https://reqres.in/](https://reqres.in/)",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "47742343"
 	},
@@ -75,7 +76,7 @@
 					},
 					"status": "OK",
 					"code": 200,
-					"_postman_previewlanguage": "",
+					"_postman_previewlanguage": null,
 					"header": [
 						{
 							"key": "Date",
@@ -260,7 +261,7 @@
 					},
 					"status": "Bad Request",
 					"code": 400,
-					"_postman_previewlanguage": "",
+					"_postman_previewlanguage": null,
 					"header": [
 						{
 							"key": "Date",
@@ -441,7 +442,7 @@
 					},
 					"status": "OK",
 					"code": 200,
-					"_postman_previewlanguage": "",
+					"_postman_previewlanguage": null,
 					"header": [
 						{
 							"key": "Date",
@@ -626,7 +627,7 @@
 					},
 					"status": "Bad Request",
 					"code": 400,
-					"_postman_previewlanguage": "",
+					"_postman_previewlanguage": null,
 					"header": [
 						{
 							"key": "Date",
@@ -807,7 +808,7 @@
 					},
 					"status": "Created",
 					"code": 201,
-					"_postman_previewlanguage": "",
+					"_postman_previewlanguage": null,
 					"header": [
 						{
 							"key": "Date",
@@ -982,7 +983,7 @@
 					},
 					"status": "OK",
 					"code": 200,
-					"_postman_previewlanguage": "",
+					"_postman_previewlanguage": null,
 					"header": [
 						{
 							"key": "Date",
@@ -1159,7 +1160,7 @@
 					},
 					"status": "OK",
 					"code": 200,
-					"_postman_previewlanguage": "",
+					"_postman_previewlanguage": null,
 					"header": [
 						{
 							"key": "Date",
@@ -1350,7 +1351,7 @@
 					},
 					"status": "OK",
 					"code": 200,
-					"_postman_previewlanguage": "",
+					"_postman_previewlanguage": null,
 					"header": [
 						{
 							"key": "Date",
@@ -1537,7 +1538,7 @@
 					},
 					"status": "OK",
 					"code": 200,
-					"_postman_previewlanguage": "",
+					"_postman_previewlanguage": null,
 					"header": [
 						{
 							"key": "Date",
@@ -1706,7 +1707,7 @@
 					},
 					"status": "No Content",
 					"code": 204,
-					"_postman_previewlanguage": "",
+					"_postman_previewlanguage": null,
 					"header": [
 						{
 							"key": "Date",
@@ -1806,7 +1807,7 @@
 						}
 					],
 					"cookie": [],
-					"body": ""
+					"body": null
 				}
 			]
 		}
