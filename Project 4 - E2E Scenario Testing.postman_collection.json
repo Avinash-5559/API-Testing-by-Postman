@@ -1,10 +1,10 @@
 {
 	"info": {
 		"_postman_id": "67c66821-cf5f-4fc6-ac26-9ccc0bc3dee5",
-		"name": "E2E Scenario Testing",
+		"name": "Project 4 : E2E Scenario Testing",
+		"description": "**URL**: [https://restful-booker.herokuapp.com/apidoc/index.html](https://restful-booker.herokuapp.com/apidoc/index.html)",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "47742343",
-		"_collection_link": "https://sinha-avinash906-5579920.postman.co/workspace/Avinash-Sinha's-Workspace~9c79a176-6ab6-4e0f-8c76-0784192ac561/collection/47742343-67c66821-cf5f-4fc6-ac26-9ccc0bc3dee5?action=share&source=collection_link&creator=47742343"
+		"_exporter_id": "47742343"
 	},
 	"item": [
 		{
@@ -101,7 +101,7 @@
 					},
 					"status": "OK",
 					"code": 200,
-					"_postman_previewlanguage": "",
+					"_postman_previewlanguage": null,
 					"header": [
 						{
 							"key": "Content-Length",
@@ -247,7 +247,7 @@
 					},
 					"status": "OK",
 					"code": 200,
-					"_postman_previewlanguage": "",
+					"_postman_previewlanguage": null,
 					"header": [
 						{
 							"key": "Content-Length",
@@ -409,7 +409,7 @@
 					},
 					"status": "OK",
 					"code": 200,
-					"_postman_previewlanguage": "",
+					"_postman_previewlanguage": null,
 					"header": [
 						{
 							"key": "Content-Length",
@@ -514,7 +514,7 @@
 					},
 					"status": "OK",
 					"code": 200,
-					"_postman_previewlanguage": "",
+					"_postman_previewlanguage": null,
 					"header": [
 						{
 							"key": "Content-Length",
