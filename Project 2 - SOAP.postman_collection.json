@@ -2,9 +2,9 @@
 	"info": {
 		"_postman_id": "a138d2d6-d5ef-47e5-b8f8-414a6191c2d8",
 		"name": "Project 2 : SOAP",
+		"description": "The Number Conversion Web Service, implemented with Visual DataFlex, provides functions that convert numbers into words or dollar amounts.\n\n- <u><b>NumberToWords</b></u>**:**  \n    Returns the word corresponding to the positive number passed as a parameter. Limited to quadrillions.\n    \n- <u><b>NumberToDollars</b></u>**:**  \n    Returns the non-zero dollar amount of the passed number.\n    \n\n**URL**: [https://www.dataaccess.com/webservicesserver/NumberConversion.wso?op=NumberToWords](https://www.dataaccess.com/webservicesserver/NumberConversion.wso?op=NumberToWords)",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "47742343",
-		"_collection_link": "https://sinha-avinash906-5579920.postman.co/workspace/Avinash-Sinha's-Workspace~9c79a176-6ab6-4e0f-8c76-0784192ac561/collection/47742343-a138d2d6-d5ef-47e5-b8f8-414a6191c2d8?action=share&source=collection_link&creator=47742343"
+		"_exporter_id": "47742343"
 	},
 	"item": [
 		{
