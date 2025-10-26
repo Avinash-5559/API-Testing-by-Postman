@@ -42,6 +42,8 @@ It covers different testing approaches, including **REST APIs, SOAP APIs, Data-D
 - **CSV** – Data-driven testing support  
 - **Node.js** – Backend for JSON Server
 
+---
+
 ## 📌 Author
 👤 Avinash Sinha
 
