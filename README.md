@@ -12,35 +12,57 @@
 
 ## 🗂️ Overview
 
-This repository contains multiple **API testing practice projects** implemented using **Postman**.  
+This repository contains multiple **API testing practice projects** created using **Postman**.
 
-It covers different testing approaches, including **REST APIs, SOAP APIs, Data-Driven Testing, and End-to-End Scenarios**.  
+It covers a variety of testing approaches, including **REST APIs, SOAP APIs, JSON Server mock APIs, Data-Driven Testing, and End-to-End flows**.
 
----
-
-## 📘 Projects Covered  
-
-| No. | Project Name                  | Description                                                                 |
-|-----|-------------------------------|-----------------------------------------------------------------------------|
-| 01  | **JSON Server (Dummy APIs)**  | Practiced testing dummy APIs using JSON Server                              |
-| 02  | **SOAP API Testing**          | Worked with SOAP API requests and responses                                 |
-| 03  | **Restful Booker**            | Tested RESTful APIs with different HTTP methods (GET, POST, PUT, DELETE)    |
-| 04  | **E2E Scenario Testing**      | Performed End-to-End API testing for a real-world flow                      |
-| 05  | **Data Driven Testing**       | Used CSV files to perform data-driven testing in Postman                    |
-| 06  | **Reqres**                    | Tested Reqres APIs with different HTTP methods (GET, POST, PUT, DELETE)     |
-| 07  | **JSONPlaceholder**           | Tested JSONPlaceholder APIs with different HTTP methods (GET, POST, PUT, DELETE) |
-| 08  | **FakeRestAPI_Authors**       | Tested FakeRestAPI_Authors APIs with different HTTP methods (GET, POST, PUT, DELETE) |
+All projects are provided as **Postman collections (.json)**, along with CSV test files where applicable.
 
 ---
 
 ## 🛠️ Tools & Technologies  
 
-- **Postman** – API testing platform  
-- **JSON Server** – Dummy/mock API server  
-- **SOAP APIs** – XML-based API testing  
-- **REST APIs** – CRUD operations testing  
-- **CSV** – Data-driven testing support  
-- **Node.js** – Backend for JSON Server
+- **Postman** – API testing and automation
+- **REST APIs** – CRUD testing
+- **SOAP APIs** – XML-based request/response flows
+- **JSON Server** – Mock/dummy API backend
+- **CSV** – Data-driven testing with Postman Runner
+- **Node.js** – Runtime for JSON Server
+- **JSON** – Structured payload format
+- **Newman** – CLI-based execution of Postman collections
+- **HTML Extra Report** – Rich HTML Newman reporting
+
+---
+
+## 📘 Projects Covered  
+
+| No.    | Project Name                     | Files Included                                                                                                          | Description                                       |
+| ------ | -------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
+| **01** | JSON Server (Dummy APIs)         | `Project 1 - JSON Server (Dummy APIs).postman_collection.json`                                                          | Tested mock/dummy API endpoints using JSON Server |
+| **02** | SOAP API Testing                 | `Project 2 - SOAP.postman_collection.json`                                                                              | SOAP XML request/response practice                |
+| **03** | Restful Booker                   | `Project 3 - Restful Booker.postman_collection.json`                                                                    | CRUD operations using Restful-Booker API          |
+| **04** | E2E Scenario Testing             | `Project 4 - E2E Scenario Testing.postman_collection.json`                                                              | Real-world end-to-end workflow testing            |
+| **05** | Data Driven Testing (CSV)        | `Project 5 - CSV File for Data Driven Testing.csv`                                                                      | CSV-based data-driven testing                     |
+| **05** | Data Driven Testing (Collection) | `Project 5 - Data Driven Testing.postman_collection.json`<br>`Project 5 - Data Driven Testing.postman_test_runner.json` | Collection + runner config                        |
+| **06** | Reqres                           | `Project 6 - Reqres.postman_collection.json`                                                                            | CRUD API tests on Reqres                          |
+| **07** | JSONPlaceholder                  | `Project 7 - JSONPlaceholder.postman_collection.json`                                                                   | REST testing with JSONPlaceholder APIs            |
+| **08** | FakeRestAPI Authors              | `Project 8 - FakeRestAPI_Authors.postman_collection.json`                                                               | CRUD operations on FakeRestAPI Authors module     |
+
+---
+
+## 📊 Newman Reports (CLI + HTML Extra)
+
+Newman reports are generated using:
+
+```cmd
+newman run "<YOUR_COLLECTION_URL_OR_FILE_PATH>" ^
+-r cli,htmlextra ^
+--reporter-htmlextra-export "newman\report.html"
+```
+
+#### ✅ Sample Newman HTML Report
+
+<img width="1920" height="1656" alt="file" src="https://github.com/user-attachments/assets/93929e0a-517f-45d0-87d2-c4d2878ff35b" />
 
 ---
 
@@ -48,6 +70,7 @@ It covers different testing approaches, including **REST APIs, SOAP APIs, Data-D
 👤 Avinash Sinha
 
 ---
+
 📝 This repository is created exclusively for **educational and practice use**.
 
 ---
