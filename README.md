@@ -12,7 +12,6 @@
 
 ## 🗂️ Overview
 
-
 This repository contains multiple **API testing practice projects** created using **Postman**.
 
 It covers a variety of testing approaches, including **REST APIs, SOAP APIs, JSON Server mock APIs, Data-Driven Testing, and End-to-End flows**.
