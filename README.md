@@ -68,7 +68,9 @@ newman run "<YOUR_COLLECTION_URL_OR_FILE_PATH>" ^
 
 ## 📌 Author
 
+
 👤 Avinash Sinha
+
 
 ---
 
